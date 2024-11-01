@@ -1,0 +1,65 @@
+div.swtorss .swtorss_content{
+	text-align: center;
+}
+
+div.swtorss .swtorss_online {
+	color: #1fd439;
+}
+
+div.swtorss .swtorss_offline {
+	color: #e63837;
+}
+
+div.swtorss .swtorss_server_online {
+	background: url('../../plugins/swtor-server-status/server_status_online.png') no-repeat;
+	padding-left: 17px;
+	margin-left: -2px;
+}
+
+div.swtorss .swtorss_server_offline {
+	background: url('../../plugins/swtor-server-status/server_status_offline.png') no-repeat;
+	padding-left: 17px;
+	margin-left: -2px;
+}
+
+div.swtorss .swtorss_shard_high, div.swtorss .swtorss_shard_FULL {
+	color: #e9403e;
+}
+
+div.swtorss .swtorss_server_pop_1 {
+	color: #63F578;
+}
+div.swtorss .swtorss_server_pop_2 {
+	color: #F7F55A;
+}
+div.swtorss .swtorss_server_pop_3 {
+	color: #FFA545;
+}
+div.swtorss .swtorss_server_pop_4 {
+	color: #FF4E4E;
+}
+div.swtorss .swtorss_server_pop_5 {
+	color: #FF4E4E;
+}
+
+
+div.swtorss .swtorss_main {
+	font-size: 1.2em;
+}
+
+div.swtorss .swtorss_last_updated {
+	font-size: 0.9em;
+}
+
+/* Thanks to shiftey (http://www.baraans-corner.de/wordpress-plugins/swtor-server-status/#comment-2773) */
+div.swtorss_morecss {
+	padding: 5px 8px;
+	background: #222;
+	z-index: 3;
+	font-size: 14px;
+	color: #efbc55;
+	background-color: #070F12;
+	border: 1px solid #3F7086;
+	border-radius: 6px 6px 6px 6px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.8), 0 0 4px #1F555A inset, 0 0 2px #1F555A inset;
+}
